@@ -1,3 +1,7 @@
 pandas>=2.2
 requests>=2.32
 kagglehub>=1.0
+cdsapi>=0.7
+xarray>=2026.9
+netCDF4>=1.7
+python-dotenv>=1.0
