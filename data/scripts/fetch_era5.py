@@ -10,15 +10,18 @@ load_dotenv(DATA.parent / ".env")      # loads CDSAPI_URL and CDSAPI_KEY before 
 OUT = DATA / "raw" / "era5"
 OUT.mkdir(parents=True, exist_ok=True)
 
-HALF = 0.15   # half-width of the box in degrees; keep equal to CHIRPS
-
 regions = pd.read_csv(DATA / "reference" / "regions.csv")
+points = regions.drop_duplicates("point_id")      # download once per unique location
 client = cdsapi.Client()
 
-for r in regions.itertuples():
-    target = OUT / f"{r.country}_{r.region}.nc".replace(" ", "_")
+for r in points.itertuples():
+    target = OUT / f"p{r.point_id:04d}.nc"
     if target.exists():            # already fetched, skip
         continue
+
+    clat = round(round(r.lat / 0.1) * 0.1, 1)   # snap to ERA5-Land cell centre
+    clon = round(round(r.lon / 0.1) * 0.1, 1)
+
     client.retrieve(
         "reanalysis-era5-land-monthly-means",
         {
@@ -27,7 +30,7 @@ for r in regions.itertuples():
             "year": [str(y) for y in range(2010, 2024)],
             "month": [f"{m:02d}" for m in range(1, 13)],
             "time": ["00:00"],
-            "area": [r.lat + HALF, r.lon - HALF, r.lat - HALF, r.lon + HALF],  # N, W, S, E
+            "area": [clat + 0.1, clon - 0.1, clat - 0.1, clon + 0.1],  # N, W, S, E: 3x3 cells
             "data_format": "netcdf",
             "download_format": "unarchived",
         },

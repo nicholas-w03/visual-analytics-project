@@ -8,10 +8,11 @@ PROCESSED = DATA / "processed"
 PROCESSED.mkdir(parents=True, exist_ok=True)
 
 regions = pd.read_csv(DATA / "reference" / "regions.csv")
+points = regions.drop_duplicates("point_id")
 
 out, first = [], True
-for r in regions.itertuples():
-    f = DATA / "raw" / "era5" / f"{r.country}_{r.region}.nc".replace(" ", "_")
+for r in points.itertuples():
+    f = DATA / "raw" / "era5" / f"p{r.point_id:04d}.nc"
     ds = xr.open_dataset(f)
     if first:
         print(ds)   # check the variable is t2m and whether the time axis is "valid_time" or "time"
@@ -25,9 +26,14 @@ for r in regions.itertuples():
     g = (df.groupby("year")
            .agg(temp_c=("temp_c", "mean"), months=("t2m", "count"))
            .reset_index())
-    g["region"], g["country"] = r.region, r.country
+    g["point_id"] = r.point_id
     out.append(g)
 
 res = pd.concat(out)
+
+# expand back to every region (shared locations get the same values)
+res = (regions[["country", "region", "point_id"]]
+       .merge(res, on="point_id")
+       .sort_values(["country", "region", "year"]))
 res.to_csv(PROCESSED / "era5_region_year.csv", index=False)
 print(res.head(15))

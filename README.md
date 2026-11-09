@@ -2,7 +2,7 @@
 
 *A Visual Analytics Approach to Origin Climate and Cupping Quality*
 
-University group project for **Visual Analytics for Business Intelligence**. We examine how climate conditions at coffee-growing origins relate to Arabica flavor profiles, and present the findings in an interactive Tableau dashboard.
+This is a group project for **Visual Analytics for Business Intelligence**. We examine how climate conditions at coffee-growing origins relate to Arabica flavor profiles, and present the findings in an interactive Tableau dashboard.
 
 ## Project Overview
 

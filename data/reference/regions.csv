@@ -1,4 +1,412 @@
-region,country,lat,lon
-Huila,Colombia,2.5,-75.8
-Sidamo,Ethiopia,6.5,38.5
-Chiapas,Mexico,16.5,-92.5
+country,region,lat,lon,point_id
+Brazil,alta mogiana ibiraci,-20.4503,-47.2289,1
+Brazil,alta paulista,-21.75,-50.25,2
+Brazil,brazil matas de minas,-20.25,-42.0,3
+Brazil,matas de minas,-20.25,-42.0,3
+Brazil,campo das vertentes,-21.05,-44.5,4
+Brazil,campos altos cerrado,-19.6961,-46.175,5
+Brazil,carmo de minas,-22.1228,-45.1278,6
+Brazil,sul de minas carmo de minas,-22.1228,-45.1278,6
+Brazil,cerrado,-18.9186,-48.2772,7
+Brazil,monte carmelo,-18.7258,-47.4947,8
+Brazil,cerrado monte carmelo minas gerais,-18.7258,-47.4947,8
+Brazil,chapadao de ferro,-18.7258,-46.9947,9
+Brazil,vale da grama,-21.7,-46.8,10
+Brazil,grama valley,-21.7,-46.8,10
+Brazil,mogiana,-20.5386,-47.4008,11
+Brazil,high mogiana,-20.5386,-47.4008,11
+Brazil,mantiquira de minas,-22.25,-45.0,12
+Brazil,mantiqueira de minas,-22.25,-45.0,12
+Brazil,"minas gerais, br",-18.5122,-44.555,13
+Brazil,mmm,-18.5122,-44.555,13
+Brazil,mountains of minas gerais,-20.0,-44.0,14
+Brazil,regiao vulcanica,-21.785,-46.565,15
+Brazil,sul de minas,-21.5,-45.5,16
+Brazil,south of minas,-21.5,-45.5,16
+Brazil,test,-14.235,-51.9253,17
+Burundi,kayanza,-2.9214,29.6292,18
+Burundi,mumirwa,-3.3833,29.3667,19
+China,dehong prefecture,24.4333,98.5833,20
+China,menglian,22.3289,99.5857,21
+China,xishuangbanna prefecture,22.0,100.8,22
+China,yunnan,25.0453,102.7097,23
+Colombia,52 narino exact location mattituy municipal region florida code 381,1.2136,-77.2811,24
+Colombia,narino,1.2136,-77.2811,24
+Colombia,pasto,1.2136,-77.2811,24
+Colombia,antioquia,6.2442,-75.5812,25
+Colombia,"caicedonia, valle del cauca",4.3328,-75.8336,26
+Colombia,popayan cauca,2.4448,-76.6147,27
+Colombia,"popayan, cauca",2.4448,-76.6147,27
+Colombia,cauca,2.4448,-76.6147,27
+Colombia,cundinamarca,4.711,-74.0721,28
+Colombia,pereira,4.8133,-75.6961,29
+Colombia,eje cafetero,4.8133,-75.6961,29
+Colombia,guayata,5.0347,-73.4864,30
+Colombia,huila,2.5359,-75.5277,31
+Colombia,huila supremo,2.5359,-75.5277,31
+Colombia,la plata,2.3925,-75.8928,32
+Colombia,"piendamo, cauca",2.6406,-76.5283,33
+Colombia,pitalito,1.8542,-76.0506,34
+Colombia,south huila,1.8542,-76.0506,34
+Colombia,quindio,4.5339,-75.6811,35
+Colombia,santander,7.1254,-73.1198,36
+Colombia,sierra nevada de santa marta,10.9,-73.7,37
+Colombia,tolima,4.4389,-75.2322,38
+Costa Rica,brunca,9.3728,-83.7025,39
+Costa Rica,central valley,9.9281,-84.0907,40
+Costa Rica,west and central valley,9.9281,-84.0907,40
+Costa Rica,valle central,9.9281,-84.0907,40
+Costa Rica,corralillo tarrazu,9.65,-84.0167,41
+Costa Rica,"los santos, tarrazu",9.6589,-84.0253,42
+Costa Rica,tarrazu,9.6589,-84.0253,42
+Costa Rica,naranjo,10.0978,-84.3781,43
+Costa Rica,occidente,10.05,-84.45,44
+Costa Rica,west villege,10.05,-84.45,44
+Costa Rica,west valley,10.05,-84.45,44
+Costa Rica,occidental,10.05,-84.45,44
+Costa Rica,san rafael,10.0131,-84.1011,45
+Costa Rica,san ramon,10.0864,-84.4694,46
+Costa Rica,tres rios,9.9064,-83.9856,47
+Costa Rica,turrialba,9.9047,-83.6833,48
+Cote d?Ivoire,cnra station of divo,5.8374,-5.3572,49
+Ecuador,province of manabi,-1.0546,-80.4545,50
+El Salvador,apaneca,13.8569,-89.8028,51
+El Salvador,apaneca ilamatepec,13.8569,-89.8028,51
+El Salvador,"department of ahuachapan, municipality of apanecallamatepec mountain",13.8569,-89.8028,51
+El Salvador,"ataco, apaneca ilamatepec mountain range",13.87,-89.8486,52
+El Salvador,cacahuatique,13.7667,-88.2333,53
+El Salvador,chalatenango,14.0333,-88.9333,54
+El Salvador,"el balsamo, quezaltepec",13.8333,-89.2667,55
+El Salvador,santa ana,13.9942,-89.5597,56
+El Salvador,"volcan chinchontepek, san vicente",13.5956,-88.8375,57
+Ethiopia,addis ababa,9.03,38.74,58
+Ethiopia,aricha,6.1333,38.2,59
+Ethiopia,"blida, kercha, guji, oromia",5.85,38.3,60
+Ethiopia,"gedeb, yirgacheffe, sidamo",5.9333,38.25,61
+Ethiopia,gedio,6.1667,38.25,62
+Ethiopia,guji,5.5,39.0,63
+Ethiopia,southern ethiopia guji,5.5,39.0,63
+Ethiopia,guji hambela,5.9,38.45,64
+Ethiopia,"snnp kaffa zone, gimbowereda",7.25,36.25,65
+Ethiopia,"kefa zone, gimbo distict, at a place called woka araba, south west ethiopia",7.25,36.25,65
+Ethiopia,kelem welega,8.8167,34.8,66
+Ethiopia,limu,8.0,36.8333,67
+Ethiopia,oromiya,7.5,39.0,68
+Ethiopia,oromia,7.5,39.0,68
+Ethiopia,sidamo,6.7,38.45,69
+Ethiopia,sidama,6.7,38.45,69
+Ethiopia,snnprg kafa telo woreda shada kebele,7.15,36.35,70
+Ethiopia,yirgacheffe,6.1625,38.2058,71
+Guatemala,acatenango,14.5544,-90.9442,72
+Guatemala,"aldea xeucalvitz, ixil region, quiche department",15.4833,-91.05,73
+Guatemala,antigua,14.5586,-90.7295,74
+Guatemala,atitlan,14.69,-91.2,75
+Guatemala,chimaltenango,14.6611,-90.8194,76
+Guatemala,"chuva, san marcos",14.9639,-91.7944,77
+Guatemala,san marcos,14.9639,-91.7944,77
+Guatemala,el progreso,14.8653,-90.0189,78
+Guatemala,"el tumbador, san marcos",14.8644,-91.9328,79
+Guatemala,"fraijanes, santa rosa",14.465,-90.4406,80
+Guatemala,huehuetenango,15.3197,-91.4708,81
+Guatemala,new oriente huehuetenango,15.3197,-91.4708,81
+Guatemala,jalapa,14.6347,-89.9889,82
+Guatemala,"la reforma, san marcos",14.8,-91.8167,83
+Guatemala,orient,14.6,-89.7,84
+Guatemala,oriente,14.6,-89.7,84
+Guatemala,nuevo oriente,14.6,-89.7,84
+Guatemala,new oriente,14.6,-89.7,84
+Guatemala,norte,15.5,-90.3,85
+Guatemala,occidente,14.9,-91.5,86
+Guatemala,oriente santa rosa,14.3,-90.3,87
+Guatemala,santa rosa,14.3,-90.3,87
+Guatemala,quetzaltenango,14.8347,-91.5181,88
+Guatemala,quiche,15.0,-91.15,89
+Guatemala,sacatepequez,14.55,-90.7333,90
+Guatemala,"san lucas toliman, solola",14.6311,-91.1444,91
+Guatemala,sierra de las minas,15.1667,-89.6667,92
+Guatemala,solola,14.7725,-91.1833,93
+Haiti,department d artibonite,19.1431,-72.4938,94
+Haiti,dondon,19.5267,-72.2414,95
+Haiti,marmelade,19.5167,-72.35,96
+Haiti,thiotte,18.2431,-72.0308,97
+Honduras,central region,14.6,-87.6,98
+Honduras,"centro, lagunetillas ajuterique, comayagua",14.3833,-87.7,99
+Honduras,comayagua,14.4592,-87.6372,100
+Honduras,el paraiso,13.9972,-86.5519,101
+Honduras,guinope el paraiso,13.8806,-87.0319,102
+Honduras,intibuca,14.3167,-88.1667,103
+Honduras,los planes de santa maria la paz,14.2833,-87.9167,104
+Honduras,"los planes de santa maria, la paz",14.2833,-87.9167,104
+Honduras,marcala,14.1558,-88.0322,105
+Honduras,"marcala, la paz",14.1558,-88.0322,105
+Honduras,occidental,14.75,-88.75,106
+Honduras,western region,14.75,-88.75,106
+Honduras,ocotepeque,14.4333,-89.1833,107
+Honduras,"san andres, lempira",14.2167,-88.55,108
+Honduras,"san jose, la paz",14.25,-87.9667,109
+Honduras,san marcos,14.4,-88.95,110
+Honduras,"siguatepeque, comayagua",14.6,-87.8333,111
+India,chickmangalore,13.3161,75.772,112
+Indonesia,aceh,4.6951,96.7494,113
+Indonesia,aceh gayo,4.7167,96.85,114
+Indonesia,aceh tengah,4.5,96.9,115
+Indonesia,bali,-8.4095,115.1889,116
+Indonesia,bener meriah,4.7369,96.8611,117
+Indonesia,bondowoso,-7.9135,113.8214,118
+Indonesia,dolok sanggul,2.2572,98.7497,119
+Indonesia,east java,-7.536,112.2384,120
+Indonesia,ijen,-8.058,114.242,121
+Indonesia,lintong,2.2833,98.9833,122
+Indonesia,"lintong nihuta dolok sanggul, sumatera utara",2.2833,98.9833,122
+Indonesia,lington nihuta,2.2833,98.9833,122
+Indonesia,sapan toraja,-3.1,119.8667,123
+Indonesia,sulawesi,-1.43,121.4456,124
+Indonesia,sumatra,0.5897,101.3431,125
+Indonesia,sumatra brastagi,3.1833,98.5167,126
+Indonesia,temanggung,-7.3167,110.1667,127
+Japan,ada okinawa japan,26.8167,128.3,128
+Kenya,blend,-1.2864,36.8172,129
+Kenya,central,-0.4167,37.0,130
+Kenya,central kenya,-0.4167,37.0,130
+Kenya,kericho,-0.3689,35.2863,131
+Kenya,kiambu,-1.1714,36.8356,132
+Kenya,kirinyaga,-0.5,37.3,133
+Kenya,meru county,0.05,37.65,134
+Kenya,muranga,-0.721,37.1526,135
+Kenya,nyeri,-0.4201,36.9476,136
+Laos,bolaven plateau,15.0833,106.25,137
+Laos,laos borofen plateau,15.0833,106.25,137
+Laos,lao p d r,19.8563,102.4955,138
+Laos,"nongluang bolaven plateau, champasack, lao pdr",15.1,106.2,139
+Laos,paksong,15.1811,106.2294,140
+Madagascar,itasy,-19.0,46.8333,141
+Malawi,kakoma,-15.8,35.0,142
+Malawi,mzuzu,-11.4581,34.0151,143
+Malawi,southern zomba,-15.3833,35.3333,144
+Mauritius,chamarel,-20.4264,57.3856,145
+Mexico,adolfo lopez mateos,17.3,-96.5,146
+Mexico,altotonga,19.7644,-97.245,147
+Mexico,amatenango de la frontera,15.5667,-92.1167,148
+Mexico,atoyac de alvarez,17.2103,-100.4331,149
+Mexico,"calnali, hidalgo",20.8986,-98.5839,150
+Mexico,canoas,19.2,-103.6,151
+Mexico,"chapulhuacan, hidalgo",21.1556,-98.9039,152
+Mexico,menglian,16.75,-93.1167,153
+Mexico,tuxtla gutierrez,16.75,-93.1167,153
+Mexico,chiapas,16.75,-93.1167,153
+Mexico,"chiapas, jaltenango",15.8667,-92.7167,154
+Mexico,jaltenango,15.8667,-92.7167,154
+Mexico,chilon,17.1167,-92.2667,155
+Mexico,"sacun palma, municipio de chilon, chiapas",17.1167,-92.2667,155
+Mexico,"chocaman, veracruz",19.0208,-97.0272,156
+Mexico,coatepec,19.4533,-96.9606,157
+Mexico,"coatepec, veracruz",19.4533,-96.9606,157
+Mexico,"coatepec, coatepec",19.4533,-96.9606,157
+Mexico,cofradia de suchitlan,19.3833,-103.7,158
+Mexico,colima,19.2433,-103.725,159
+Mexico,cordoba,18.8942,-96.9353,160
+Mexico,coscomatepec,19.0717,-97.0469,161
+Mexico,cuarenteno,21.5,-104.8,162
+Mexico,"el desmoronado, talpan de allende jalisco",20.3833,-104.8167,163
+Mexico,el remudadero,19.15,-103.55,164
+Mexico,escuitla,15.3333,-92.6,165
+Mexico,fln mirador,19.45,-96.9,166
+Mexico,fortin de las flores,18.9,-96.9997,167
+Mexico,huautla de jimenez,18.1314,-96.8447,168
+Mexico,"xochitonalco, huautla",18.1314,-96.8447,168
+Mexico,"huazalingo, hidalgo",20.9806,-98.3478,169
+Mexico,hustusco,19.1558,-96.9589,170
+Mexico,"iliatenco, guerrero",17.0542,-98.6811,171
+Mexico,ixhuatlan del cafe,19.05,-96.9833,172
+Mexico,"jaltocan, hidalgo",21.1333,-98.5333,173
+Mexico,juchique de ferrer,19.8333,-96.7,174
+Mexico,santa catarina juquila,16.2389,-97.2917,175
+Mexico,juquila,16.2389,-97.2917,175
+Mexico,la concordia,16.1167,-92.6833,176
+Mexico,"la concordia, chiapas",16.1167,-92.6833,176
+Mexico,la cumbre,19.5,-96.9,177
+Mexico,la yerba,21.5,-105.0,178
+Mexico,la yerbabuena,19.4167,-103.65,179
+Mexico,los angeles,19.4,-96.9,180
+Mexico,mahuixtlan,19.4333,-96.9167,181
+Mexico,manzanillo,19.0522,-104.3158,182
+Mexico,motozintla,15.3667,-92.25,183
+Mexico,"motozintla, chiapas",15.3667,-92.25,183
+Mexico,nayarit,21.75,-105.0,184
+Mexico,oaxaca,17.0732,-96.7266,185
+Mexico,ocosingo,16.9064,-92.0942,186
+Mexico,"ohuapan, tlaltetela",19.3,-96.7333,187
+Mexico,petatlan,17.5383,-101.2678,188
+Mexico,"pluma hidalogo, oaxaca",15.93,-96.4183,189
+Mexico,pochutla,15.7461,-96.4661,190
+Mexico,progreso santa rosa teocelo,19.3833,-96.9667,191
+Mexico,san bartolo tutotepec,20.4,-98.2,192
+Mexico,san fernando,16.8667,-93.2,193
+Mexico,san isidro,16.0,-96.5,194
+Mexico,san miguel del puerto,15.805,-96.0683,195
+Mexico,san pedro cotzilnam,16.9,-92.4,196
+Mexico,santa maria sitepec,16.15,-97.1,197
+Mexico,santo domingo cacalotepec,17.3833,-96.15,198
+Mexico,santo reyes nopala,16.1,-97.15,199
+Mexico,sierra alta mixe y zapoteca,17.0,-96.0,200
+Mexico,"sierra fraylesca, chiapas",16.0,-93.5,201
+Mexico,sierra madre occidental,25.0,-105.0,202
+Mexico,"sierra norte yajalon, chiapas",17.1667,-92.3333,203
+Mexico,yajalon,17.1667,-92.3333,203
+Mexico,"sierra, chiapas",16.5,-92.5,204
+Mexico,siltepec el triunfo,15.55,-92.3333,205
+Mexico,"siltepec el triunfo, chiapas",15.55,-92.3333,205
+Mexico,talpa de allende,20.3814,-104.8219,206
+Mexico,tapachula,14.9097,-92.2656,207
+Mexico,temaxcalapa,18.6667,-97.1,208
+Mexico,"tenango de doria, hidalgo",20.3375,-98.2289,209
+Mexico,tepetzingo,18.85,-96.9167,210
+Mexico,tepictla,18.88,-96.95,211
+Mexico,tlacuilotepec,20.35,-98.05,212
+Mexico,"tlanchinol, hidalgo",20.9889,-98.6611,213
+Mexico,tlatlauquitepec,19.8519,-97.4969,214
+Mexico,totutla,19.2333,-96.8833,215
+Mexico,veracruz,19.1738,-96.1342,216
+Mexico,villa talea de castro,17.3603,-96.2514,217
+Mexico,xalapa,19.5438,-96.9102,218
+Mexico,xicotepec de juarez,20.2781,-97.9575,219
+Mexico,yecuatla,19.8667,-96.75,220
+Mexico,zapotitlan de mendez,20.0033,-97.6892,221
+Mexico,zaragoza itundujia,16.85,-97.65,222
+Mexico,zentla,19.0833,-96.85,223
+Mexico,zihuatanejo de azueta,17.6447,-101.5514,224
+Mexico,"zongolica, veracruz",18.6667,-97.0,225
+Myanmar,pyin oo lwin,22.0333,96.4667,226
+Myanmar,pyinoolwin,22.0333,96.4667,226
+Myanmar,"doe kwin, pyin oo lwin",22.0333,96.4667,226
+Myanmar,south shan state,20.7833,97.0333,227
+Myanmar,"yauk sauk, shan state",21.2333,96.8667,228
+Myanmar,ywar ngan township,21.1614,96.4428,229
+Myanmar,ywar ngan,21.1614,96.4428,229
+Nicaragua,"dipilto, nueva segovia",13.7167,-86.6167,230
+Nicaragua,esteli,13.0919,-86.3538,231
+Nicaragua,jalapa,13.9222,-86.1239,232
+Nicaragua,jinotega,13.0917,-86.0,233
+Nicaragua,matagalpa,12.9256,-85.9178,234
+Nicaragua,nueva segovia,13.6333,-86.4833,235
+Panama,boquete,8.78,-82.4414,236
+Papua New Guinea,eastern highlands province,-6.3,145.4,237
+Peru,cajamarca,-7.1638,-78.5003,238
+Peru,"chanchamayo, lamerced",-11.05,-75.3333,239
+Peru,"chanchamayo, la merced",-11.05,-75.3333,239
+Peru,huanuco,-9.9306,-76.2422,240
+Peru,"penachi, cecanor",-6.2333,-79.4333,241
+Peru,puno,-15.8406,-70.0281,242
+Peru,san ignacio,-5.0758,-79.0014,243
+Peru,villa rica,-10.7394,-75.2711,244
+Philippines,asia pacific,12.8797,121.774,245
+Philippines,"benguet, mountain province",16.5,120.7,246
+Philippines,"bukidnon, mindanao, philppines",8.15,125.1333,247
+Philippines,corillera administrative,17.0,121.0,248
+Philippines,"davao city, region 11",7.1907,125.4553,249
+Rwanda,gicumbi,-1.6044,30.0594,250
+Taiwan,"baihe dist, tainan city 臺南市白河區",23.3503,120.4158,251
+Taiwan,"caoling, gukeng township, yunlin county",23.5978,120.7258,252
+Taiwan,changhua baguashan 彰化市八卦山,24.0764,120.5519,253
+Taiwan,chiayi,23.48,120.4497,254
+Taiwan,mountain ali,23.51,120.8033,255
+Taiwan,嘉義阿里山,23.51,120.8033,255
+Taiwan,chiayi alishan 嘉義縣阿里山鄉,23.51,120.8033,255
+Taiwan,chiayi fanlu嘉義縣番路鄉,23.465,120.5567,256
+Taiwan,"dongshan dist, tainan city",23.3258,120.4039,257
+Taiwan,台南市東山區,23.3258,120.4039,257
+Taiwan,"dongshan dist, tainan city 臺南市東山區",23.3258,120.4039,257
+Taiwan,"dongshan dist, tainan city 台南市東山區",23.3258,120.4039,257
+Taiwan,"gukeng township, yunlin county",23.645,120.5606,258
+Taiwan,"leye, alishan township, chiayi county",23.4608,120.7019,259
+Taiwan,"leye, alishan township, chiayi county 嘉義阿里山樂野村",23.4608,120.7019,259
+Taiwan,nantou,23.915,120.6869,260
+Taiwan,natou county,23.915,120.6869,260
+Taiwan,"nanxi dist, tainan city 臺南市楠西區",23.1747,120.4853,261
+Taiwan,new taipei zhonghe 新北市中和區,24.9983,121.5,262
+Taiwan,yunlin 雲林縣石壁,23.6067,120.7075,263
+Taiwan,"shibi, gukeng township, yunlin county 郵遞區號",23.6067,120.7075,263
+Taiwan,taichung taiping 台中市太平區,24.1264,120.7178,264
+Taiwan,taichung xinshe 台中市新社區,24.2333,120.8167,265
+Taiwan,台中新社,24.2333,120.8167,265
+Taiwan,"taiwu township, pingtung county 屏東縣泰武鄉",22.5925,120.6333,266
+Taiwan,yunlin,23.7092,120.4313,267
+Taiwan,yunlin gukeng he bao 雲林縣古坑鄉荷苞村,23.6558,120.5847,268
+Taiwan,古坑鄉荷包村尖山坑60號,23.6558,120.5847,268
+Taiwan,卓溪鄉zhuoxi township,23.3442,121.3061,269
+Taiwan,國姓鄉 guoshing township,24.045,120.8569,270
+Taiwan,南投國姓,24.045,120.8569,270
+Taiwan,台中和平區,24.2044,121.0028,271
+Taiwan,台東太麻里,22.6153,121.0078,272
+Taiwan,台灣,23.6978,120.9605,273
+Taiwan,台灣屏東,22.6719,120.488,274
+Taiwan,壽豐鄉shoufeng township,23.8672,121.5089,275
+Taiwan,新北市,24.9157,121.6739,276
+Taiwan,新竹縣,24.8387,121.0177,277
+Taiwan,桃園市,24.9936,121.301,278
+Taiwan,玉里鎮yuli township,23.3333,121.3167,279
+Taiwan,秀林鄉show linxia township,24.15,121.6167,280
+Taiwan,臺北市,25.033,121.5654,281
+Taiwan,苗栗三灣,24.6547,120.9547,282
+Taiwan,苗栗泰安,24.4442,120.9794,283
+Taiwan,苗栗縣,24.5601,120.8217,284
+"Tanzania, United Republic Of",arusha,-3.3667,36.6833,285
+"Tanzania, United Republic Of",northern,-3.3667,36.6833,285
+"Tanzania, United Republic Of",arusha meru,-3.25,36.75,286
+"Tanzania, United Republic Of",meru,-3.25,36.75,286
+"Tanzania, United Republic Of",nkure meru,-3.25,36.75,286
+"Tanzania, United Republic Of",ikand village,-9.1,32.8,287
+"Tanzania, United Republic Of","ilomba vilage, mbozi",-9.1,32.8,287
+"Tanzania, United Republic Of","iwala village, mbeya rural",-8.9,33.45,288
+"Tanzania, United Republic Of",mbeya,-8.9,33.45,288
+"Tanzania, United Republic Of",shizingo village,-8.9,33.45,288
+"Tanzania, United Republic Of",karatu arusha,-3.3333,35.6667,289
+"Tanzania, United Republic Of","manyara, karatu",-3.3333,35.6667,289
+"Tanzania, United Republic Of",karatu northern,-3.3333,35.6667,289
+"Tanzania, United Republic Of",karatu ngorogoro,-3.3333,35.6667,289
+"Tanzania, United Republic Of",kilimanjaro,-3.0667,37.35,290
+"Tanzania, United Republic Of",mbinga,-10.9333,35.0167,291
+"Tanzania, United Republic Of","ruvuma, mbinga",-10.9333,35.0167,291
+"Tanzania, United Republic Of",mkuu rombo,-3.1667,37.55,292
+"Tanzania, United Republic Of",moshi,-3.35,37.3333,293
+"Tanzania, United Republic Of",ngorogoro,-3.2333,35.4833,294
+"Tanzania, United Republic Of","oldeani, mongola",-3.35,35.55,295
+"Tanzania, United Republic Of",ruvuma,-10.6833,36.2667,296
+Thailand,north of thailand,18.7883,98.9853,297
+Thailand,chiang mai,18.7883,98.9853,297
+Thailand,chiang rai thailand,19.9105,99.8406,298
+Thailand,suan ya lung,19.9105,99.8406,298
+Thailand,chiangrai,19.9105,99.8406,298
+Thailand,chiang rai,19.9105,99.8406,298
+Thailand,"doi chaang village, chiang rai, thialand",19.825,99.5667,299
+Thailand,phahi,20.35,99.8167,300
+Uganda,bulambuli eastern region,1.3833,34.3833,301
+Uganda,eastern,1.0,34.0,302
+Uganda,eastern uganda,1.0,34.0,302
+Uganda,kapchorwa,1.4,34.45,303
+Uganda,kapchorwa eastern,1.4,34.45,303
+Uganda,kasese,0.1833,30.0833,304
+Uganda,mt rwenzori,0.3833,29.9,305
+Uganda,rwenzori,0.3833,29.9,305
+Uganda,"kasese, mt rwenzori",0.3833,29.9,305
+Uganda,mbale,1.0822,34.175,306
+Uganda,mt elgon,1.1333,34.55,307
+Uganda,"sipi, mt elgon",1.3333,34.3667,308
+Uganda,west nile,2.75,31.0,309
+United States,central america,37.0902,-95.7129,310
+United States,berastagi,37.0902,-95.7129,310
+United States,antioquia,37.0902,-95.7129,310
+United States (Hawaii),ka u district of big island,19.0653,-155.5861,311
+United States (Hawaii),ka u,19.0653,-155.5861,311
+United States (Hawaii),kona district of big island,19.64,-155.996,312
+United States (Hawaii),kona,19.64,-155.996,312
+United States (Puerto Rico),yauco region,18.0347,-66.8492,313
+Vietnam,dala,11.9404,108.4583,314
+Vietnam,dalat,11.9404,108.4583,314
+Vietnam,don duong,11.7833,108.55,315
+Vietnam,vietnam tutra,11.7833,108.55,315
+Vietnam,"eatan commune, krong nang district, krong nang province",12.95,108.35,316
+Vietnam,lam dong province,11.5753,108.1429,317
+Vietnam,quang tri,16.75,107.2,318
+Vietnam,vietnam cau dat,11.8333,108.5333,319
+Zambia,mubuyu estate,-16.0333,27.8,320
