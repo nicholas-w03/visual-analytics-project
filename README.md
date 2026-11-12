@@ -14,10 +14,11 @@ This is a group project for **Visual Analytics for Business Intelligence**. We e
 
 | Dataset | Content | Source |
 |---|---|---|
-| **CQI** (Coffee Quality Institute), Arabica | Lot-level cupping scores, origin, altitude, variety, processing method | Kaggle: `erwinhmtang/coffee-quality-institute-reviews-may2023` |
-| **FAO** | Coffee production statistics by country and year | UN Food and Agriculture Organization |
+| **CQI**, Arabica | Lot-level cupping scores, origin, altitude, variety, processing method | Coffee Quality Institute, Kaggle: `erwinhmtang/coffee-quality-institute-reviews-may2023` |
+| **FAO** | Coffee production statistics by country and year | UN Food and Agriculture Organization, Kaggle: `junkochida/faostat-coffee-production-data-1961-2022` |
 | **CHIRPS** | Gridded precipitation | Climate Hazards Group |
 | **ERA5** | Gridded temperature (reanalysis) | Copernicus Climate Data Store |
+| **ICO** | Coffee price by type and year | International Coffee Organisation, Kaggle: `yamaerenay/ico-coffee-dataset-worldwide` |
 
 Country of origin is the common join key. The gridded climate data (CHIRPS, ERA5) is aggregated to country level before joining.
 
